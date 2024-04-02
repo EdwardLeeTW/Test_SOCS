@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/MP102_PSFB_PCMC.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>296</used>
+      <free>7896</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>66432</length>
+      <used>7224</used>
+      <free>59208</free>
+    </memory>
+  </executable>
+</project>
