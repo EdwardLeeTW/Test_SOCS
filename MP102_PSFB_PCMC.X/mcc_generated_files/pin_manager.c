@@ -103,6 +103,7 @@ void PIN_MANAGER_Initialize (void)
     RPINR46bits.CLCINBR = 0x002C;    //RB12->CLC3:CLCINB
     RPINR47bits.CLCINDR = 0x002F;    //RB15->CLC1:CLCIND
     RPINR12bits.PCI8R = 0x0029;    //RB9->PWM:PCI8
+    _RP37R = 36;//RP37=PWM_EVTA=CL_active(use it in pin manager initialization)
 
     __builtin_write_RPCON(0x0800); // lock PPS
 }
